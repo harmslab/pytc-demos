@@ -1,0 +1,111 @@
+experiments:
+1 1 ca-edta_tris-01.xp
+-1 0 end
+0.730000 0.300000 (vbar20,\ hydration)
+g 34 (#global parameters)
+0 0.000459
+40000.000000 (CompressLimit)
+5.000000 (threshold s for switching algorithms)
+500.000000 (nGridSize)
+1.000000 (adjust dt with max relative increase)
+0.500000 (SRMAXSED)
+0.500000 (SRMAXREACT)
+0 (SRLIMITRANGE)
+0 (SRTESTING)
+1 (SRCORRLEVEL)
+0 (SRTESTING)
+0 (bSRFixedDt)
+0 (bShutOffBackDiffusion)
+1 (bRampOmega)
+500 (nSAItMax)
+2.000000 (SAmaxTemp)
+10 (nSANumberOfTemps)
+1 (bSAFinalML)
+300 (nDefaultGridSize)
+2000 (nGridSizeUpperLimit)
+75 (nGridSizeLowerLimit)
+5.0 (fGridSizePPS)
+1 (bAutoDynamicGridSize)
+1 (bAutoGridSed)
+0.0 (GridSedCoeff)
+60.0 (SCHANGEMETHODOPT)
+1 (bOptimizeClaverieGrid)
+1 (bWithLowLimCutOffIfPossible)
+1.0e-06 (RELCUTOFFLIM)
+2 (fAbsorbanceScanVelocity)
+0 (fAbsorbanceScanRadialResolution)
+0 (bCorrectAbsorbanceTimeRes)
+0 (bCorrectAbsorbanceRadialRes)
+5.000000e-04 (SettingsBackDiffusionLimit)
+model:
+111 (A+B<->C hetero-association model) 
+parameter file:
+ca-edta_tris-01.sedphat_PAR
+links:
+30 (iMaxExp)
+9 (#links)
+1 1 1 1 1 1 1 0 0
+2 2 2 2 2 2 2 0 0
+3 3 3 3 3 3 3 0 0
+4 4 4 4 4 4 4 0 0
+5 5 5 5 5 5 5 0 0
+6 6 6 6 6 6 6 0 0
+7 7 7 7 7 7 7 0 0
+8 8 8 8 8 8 8 0 0
+9 9 9 9 9 9 9 0 0
+10 10 10 10 10 10 10 0 0
+11 11 11 11 11 11 11 0 0
+12 12 12 12 12 12 12 0 0
+13 13 13 13 13 13 13 0 0
+14 14 14 14 14 14 14 0 0
+15 15 15 15 15 15 15 0 0
+16 16 16 16 16 16 16 0 0
+17 17 17 17 17 17 17 0 0
+18 18 18 18 18 18 18 0 0
+19 19 19 19 19 19 19 0 0
+20 20 20 20 20 20 20 0 0
+21 21 21 21 21 21 21 0 0
+22 22 22 22 22 22 22 0 0
+23 23 23 23 23 23 23 0 0
+24 24 24 24 24 24 24 0 0
+25 25 25 25 25 25 25 0 0
+26 26 26 26 26 26 26 0 0
+27 27 27 27 27 27 27 0 0
+28 28 28 28 28 28 28 0 0
+29 29 29 29 29 29 29 0 0
+30 30 30 30 30 30 30 0 0
+prior file:
+ca-edta_tris-01.sedphat_PRIOR
+10 (#spectral links)
+1 1 1 1 1 1 1 1 1 1 
+2 2 2 2 2 2 2 2 2 2 
+3 3 3 3 3 3 3 3 3 3 
+4 4 4 4 4 4 4 4 4 4 
+5 5 5 5 5 5 5 5 5 5 
+6 6 6 6 6 6 6 6 6 6 
+7 7 7 7 7 7 7 7 7 7 
+8 8 8 8 8 8 8 8 8 8 
+9 9 9 9 9 9 9 9 9 9 
+10 10 10 10 10 10 10 10 10 10 
+11 11 11 11 11 11 11 11 11 11 
+12 12 12 12 12 12 12 12 12 12 
+13 13 13 13 13 13 13 13 13 13 
+14 14 14 14 14 14 14 14 14 14 
+15 15 15 15 15 15 15 15 15 15 
+16 16 16 16 16 16 16 16 16 16 
+17 17 17 17 17 17 17 17 17 17 
+18 18 18 18 18 18 18 18 18 18 
+19 19 19 19 19 19 19 19 19 19 
+20 20 20 20 20 20 20 20 20 20 
+21 21 21 21 21 21 21 21 21 21 
+22 22 22 22 22 22 22 22 22 22 
+23 23 23 23 23 23 23 23 23 23 
+24 24 24 24 24 24 24 24 24 24 
+25 25 25 25 25 25 25 25 25 25 
+26 26 26 26 26 26 26 26 26 26 
+27 27 27 27 27 27 27 27 27 27 
+28 28 28 28 28 28 28 28 28 28 
+29 29 29 29 29 29 29 29 29 29 
+30 30 30 30 30 30 30 30 30 30 
+0 (#constraints)
+0 (bFitWithConstraints)
